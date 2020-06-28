@@ -1,7 +1,7 @@
-This is a Cryptonote IRC tipbot. Released under GPLv2+.
+This is a Wownero IRC tipbot. Released under GPLv2+.
 
 Installation requirements:
-  - the daemon/simplewallet for the Cryptonote coin to use
+  - the daemon/simplewallet for the Wownero coin to use
   - python 2
   - redis
   - python-redis
@@ -35,5 +35,5 @@ simplewallet. The withdrawal fee can be set higher to guard against this.
 If a withdrawal error happens, withdrawals are disabled until enabled again by the operator,
 to avoid possible exploits.
 
-Coins that have a modified RPC command set from the base Cryptonote code may need to
+Coins that have a modified RPC command set from the base Wownero code may need to
 modify the tipbot.
